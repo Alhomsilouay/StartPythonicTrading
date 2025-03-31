@@ -1,8 +1,8 @@
 # StartPythonicTrading
 
- 
+ ## Finantial data instruments importing and vizualization  with python. 
 
-This program serve as quick start to demonstrates some basic of finantial data instruments (importing, processing, vizualization)  with python. 
+This repo serve as quick start to demonstrates some basic of finantial data instruments (importing, processing, vizualization)  with python (Jupter Notebook) and to be familiar with some known libraries dealing with finantial data.
 
 Its is mainly based on the following references:
 
@@ -21,5 +21,26 @@ References:
 
     5. MetaTrader5 with python  
        MetaTrader module for integration with Python : https://www.mql5.com/en/docs/integration/python_metatrader5
+
     6. ATJ Traders - Algo Trading (YouTube Channel)
- 
+
+    7. https://pypi.org/project/mplfinance/ which is a matplotlib utilities for the visualization, and visual
+        analysis, of financial data
+
+
+You can run the following files:
+
+         1_Yfinance_Pyplot_Plotly.ipynb
+
+         2_Python And MT5 Connect.ipynb        
+
+         3_Using_alphavantage.ipynb 
+
+         4_Using_mplfinance & ta.ipynb
+
+|File name |Libraries |
+|:------------|:--------------:|
+|1_Yfinance_Pyplot_Plotly.ipynb      | Pandas, Matplotlib, Nbformat, Yfinance, MetaTrader5         | 
+|2_Python And MT5 Connect.ipynb| Pandas, Matplotlib, ployly, MetaTrader5, Datetime      |         
+|3_Using_alphavantage.ipynb| Pandas, Matplotlib, Alphavantage      |         
+|4_Using_mplfinance & ta.ipynb| Pandas, Matplotlib, Yfinance, Mplfinance, ta     |          
